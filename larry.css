@@ -1,4 +1,55 @@
+
+
+body {
+    display: grid;
+    grid-template: repeat(16, 1fr) / repeat(24, 1fr);
+    margin: auto;
+}
+
+.banner {
+    grid-area: 1 / 1 / 4 / 25;
+    background-color: #ddaaaa;
+}
+
+#nav {
+    grid-area: 4 / 1 / 5 / 25;
+    display: flex;
+
+}
+
+#nav > * {
+    flex: 1 1 8.33%;
+}
+
+#jan {background-color: #11ccff;}
+#feb {background-color: #1122dd;}
+#march {background-color: #3366bb;}
+#april {background-color: #334499;}
+#may {background-color: #334477;}
+#june {background-color: #334455;}
+#july {background-color: #aaff33;}
+#aug {background-color: #112211;}
+#sept {background-color: #334455;}
+#oct {background-color: #334455;}
+#nov {background-color: #3344dd;}
+#dec {background-color: #3344ff;}
+
+
 #catalog {
+    grid-area: 5 / 5 / 11 / 20;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+#catalogue > * {
+    flex: 1 1 auto;
+}
+
+#vendors {
+    grid-area: 11 / 5 / 17 / 20;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
