@@ -1,7 +1,7 @@
 
 
 body {
-    height: 25%;
+    height: 50%;
     display: grid;
     grid-template: repeat(16, 1fr) / repeat(24, 1fr);
     margin: auto;
@@ -10,6 +10,7 @@ body {
 #header {
     grid-area: 1 / 1 / 4 / 25;
     background-color: #ddaaaa;
+    text-align: center;
 }
 
 #nav {

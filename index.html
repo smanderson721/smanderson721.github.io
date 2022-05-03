@@ -11,6 +11,12 @@
 
         <!-- css document-->
         <link rel="stylesheet" type="text/css" href="larry.css" />
+
+        <!-- no cache -->
+        <meta http-equiv='cache-control' content='no-cache'> 
+        <meta http-equiv='expires' content='0'> 
+        <meta http-equiv='pragma' content='no-cache'>
+
     </head>
 
     <body>
@@ -36,7 +42,7 @@
 
         <div id="catalog">
             <button data-bs-toggle="collapse" data-bs-target=".apple">Apples</button>
-            <button data-toggle="collapse" data-target="#bread">Bread</button>
+            <button data-bs-toggle="collapse" data-bs-target=".bread">Bread</button>
             <button data-toggle="collapse" data-target="#cucu">Cucumber</button>
             <button data-toggle="collapse" data-target="#dairy">Dairy</button>
             <button data-toggle="collapse" data-target="#egg">Eggs</button>
@@ -59,7 +65,7 @@
                 <div class="card card-body">Stephen</div>
             </div>
             
-            <div class="collapse apple">
+            <div class="collapse apple bread">
                 <div class="card card-body">tephen</div>
             </div>
 
