@@ -1,6 +1,7 @@
 
 
 body {
+    height: 50%;
     display: grid;
     grid-template: repeat(16, 1fr) / repeat(24, 1fr);
     margin: auto;
