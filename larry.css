@@ -1,13 +1,13 @@
 
 
 body {
-    height: 50%;
+    height: 25%;
     display: grid;
     grid-template: repeat(16, 1fr) / repeat(24, 1fr);
     margin: auto;
 }
 
-.banner {
+#header {
     grid-area: 1 / 1 / 4 / 25;
     background-color: #ddaaaa;
 }
@@ -38,6 +38,7 @@ body {
 
 #catalog {
     grid-area: 5 / 5 / 11 / 20;
+    background-color: #aaddff;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -51,6 +52,7 @@ body {
 
 #vendors {
     grid-area: 11 / 5 / 17 / 20;
+    background-color: #ddaaff;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
