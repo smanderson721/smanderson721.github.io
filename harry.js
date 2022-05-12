@@ -1,6 +1,6 @@
 function karen() {
-    let pie = document.getElementById("lephen").style.visibility;
-    if (pie == "hidden") {
-        pie = "visible";
-    }
+    let x = document.getElementById("lephen");
+    if (x.style.visibility === "hidden") {
+        x.style.visibility = "visible";
+    } else {x.style.visibility = "hidden";}
 }
