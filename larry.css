@@ -51,7 +51,7 @@ body {
     flex: 1 1 auto;
 }
 
-.vendors {
+#vendors {
     grid-area: 11 / 5 / 17 / 20;
     background-color: #ddaaff;
     display: flex;
